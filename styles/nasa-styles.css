@@ -1,0 +1,66 @@
+body{
+    background-image: url(../images/stars2.jpg);
+    background-size: 850px 450px;
+    background-repeat: no-repeat;  
+
+    background-position: top;
+    width:850px; 
+    margin: 0 auto; 
+    font-family: 'roboto', sans-serif; 
+   
+    
+}
+
+
+h1{
+   font-size:60px;
+   color:white;
+   padding-top: 15%;
+   padding-bottom: 25%;
+   margin-left: 40%;
+    margin-right: auto;
+    width: 14em
+   
+  
+
+}
+section{
+    display:flex;
+    height: 324px;
+    width: 850px;
+    flex-direction: row;
+    justify-content:space-between;
+
+    
+}
+
+article{
+height: 270px;
+width:374px;
+background-color: lightgrey;
+flex-direction: column;
+
+
+}
+@media (max-width: 600px) {
+body{
+    background-size:374px 270px;
+    background-position: top left;
+    
+}
+h1{
+    padding-top: 7%;
+    padding-bottom:10%;
+    margin-left: 10%;
+    margin-right: auto;
+    width:4em;
+}
+
+section{
+display: inline;
+
+}
+
+article{
+height:auto;
+}
